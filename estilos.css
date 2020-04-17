@@ -1,0 +1,46 @@
+/*ABRIL_16*/
+/*estilos.css*/
+/*guarfo en memoria del navegador los elementos para reutilizarlos*/
+
+
+:root{
+	--naranja:#F90;
+	--negro:#222;
+	--blanco:#FFF;
+}
+
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	/*agregar imagen de fondo  */
+	background-image: url(images/pattern.jpg);
+	background-color: var(--negro);
+	color: var(--negro);
+	/*todo el sitio usa la misma fuente*/
+	font-family: Arial,Helvetica, sans-serif;
+}
+.cabecera,
+.contenido{
+	max-width: 1000px;
+	margin:auto;
+}
+
+.cabecera{
+	display:flex;
+	justify-content: space-between;
+	align-items:  center;
+	padding: 10px 0;
+
+}
+
+.cabecera-titulo{
+	color: var(--naranja);
+}
+
+.contenido{
+background-color: burlywood;
+}
